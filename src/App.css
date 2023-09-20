@@ -1,0 +1,40 @@
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: whitesmoke;
+}
+
+.container fieldset {
+  background: white;
+  width: 30%;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.container fieldset legend {
+  text-align: center;
+  padding: 0 10px;
+}
+
+.container fieldset div {
+  margin: 10px ;
+  display: flex;
+  gap: 10px;
+}
+
+.container fieldset button {
+  flex-grow: 1;
+}
+
+.container fieldset input[type=number] {
+  flex-grow: 1;
+}
+
+.container fieldset label {
+  display: inline-block;
+  width: 33%;
+}
+
+
